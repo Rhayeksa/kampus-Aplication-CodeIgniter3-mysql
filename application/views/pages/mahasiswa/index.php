@@ -29,7 +29,7 @@
     <?php endif; ?>
     <?php if (empty($mahasiswas)) : ?>
       <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        Mahasiswa tidak ditemukan
+        Tidak ada Mahasiswa
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
