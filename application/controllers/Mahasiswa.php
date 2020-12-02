@@ -49,7 +49,7 @@ class Mahasiswa extends CI_Controller
     } else {
       $this->Mahasiswa_model->addOne();
       $this->session->set_flashdata('flash_message', 'Ditambahkan');
-      redirect('mahasiswa');
+      redirect('Mahasiswa');
     }
   }
   public function update($key)
@@ -74,13 +74,13 @@ class Mahasiswa extends CI_Controller
     } else {
       $this->Mahasiswa_model->updateByKey($key);
       $this->session->set_flashdata('flash_message', 'Diubah');
-      redirect('mahasiswa');
+      redirect('Mahasiswa');
     }
   }
   public function delete($key)
   {
     $this->Mahasiswa_model->deleteByKey($key);
     $this->session->set_flashdata('flash_message', 'Dihapus');
-    redirect('mahasiswa');
+    redirect('Mahasiswa');
   }
 }
