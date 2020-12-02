@@ -21,7 +21,7 @@
     </form>
     <?php if ($this->session->flashdata('flash_message')) : ?>
       <div class="alert alert-dark alert-dismissible fade show" role="alert">
-        Data mahasiswa <strong>berhasil</strong> <?= $this->session->flashdata('flash_message'); ?>
+        Data Mahasiswa <strong>berhasil</strong> <?= $this->session->flashdata('flash_message'); ?>
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
