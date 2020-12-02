@@ -45,7 +45,6 @@ class Mahasiswa_model extends CI_Model
       'email' => $this->input->post('email', true),
       'jurusan' => $this->input->post('jurusan', true),
       'alamat' => $this->input->post('alamat', true),
-      'createdAt' => $this->input->post('createdAt', true),
       'updatedAt' => $this->input->post('updatedAt', true),
     ];
     $this->db->where('nim', $key);
