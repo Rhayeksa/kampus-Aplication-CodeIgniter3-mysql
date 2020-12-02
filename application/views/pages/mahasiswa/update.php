@@ -19,7 +19,6 @@
   <div class="card-body">
     <form method="post">
       <input type="text" hidden name="nim" value="<?= $mahasiswa['nim']; ?>" />
-      <input type="text" hidden name="createdAt" value="<?= $mahasiswa['createdAt']; ?>" />
       <input type="text" hidden name="updatedAt" value="<?= date("Y-m-d H:i:s"); ?>" />
       <h3>NIM <?= $mahasiswa['nim']; ?></h3>
       <div class="row">
