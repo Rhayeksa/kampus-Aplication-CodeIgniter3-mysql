@@ -20,7 +20,7 @@
     <form method="POST">
       <input type="text" hidden name="nid" value="<?= $dosen['nid']; ?>" />
       <input type="text" hidden name="updatedAt" value="<?= date("Y-m-d H:i:s"); ?>" />
-      <h3>NIM <?= $dosen['nid']; ?></h3>
+      <h3>NID <?= $dosen['nid']; ?></h3>
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
