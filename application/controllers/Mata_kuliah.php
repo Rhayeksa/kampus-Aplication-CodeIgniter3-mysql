@@ -36,7 +36,7 @@ class Mata_kuliah extends CI_Controller
 
     $this->form_validation->set_rules('kode', 'Kode', 'required|is_unique[mata_kuliahs.kode]');
     $this->form_validation->set_rules('nama', 'Nama', 'required');
-    $this->form_validation->set_rules('sks', 'SKS', 'required');
+    $this->form_validation->set_rules('sks', 'SKS', 'required|numeric');
 
     if ($this->form_validation->run() == false) {
       $this->load->view('templates/header', $data);
@@ -55,7 +55,7 @@ class Mata_kuliah extends CI_Controller
 
     $this->form_validation->set_rules('kode', 'Kode', 'required');
     $this->form_validation->set_rules('nama', 'Nama', 'required');
-    $this->form_validation->set_rules('sks', 'SKS', 'required');
+    $this->form_validation->set_rules('sks', 'SKS', 'required|numeric');
 
     if ($this->form_validation->run() == false) {
       $this->load->view('templates/header', $data);
