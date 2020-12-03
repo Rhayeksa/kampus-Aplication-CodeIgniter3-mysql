@@ -56,8 +56,8 @@ class Mahasiswa extends CI_Controller
   {
     $data['title'] = 'Form Update Mahasiswa';
     $data['mahasiswa'] = $this->Mahasiswa_model->getByKey($key);
-    $data['jurusan'] = ['Teknik Informatika', 'Sistem Informatika'];
-    $data['gender'] = ['Pria', 'Wanita'];
+    $data['jurusans'] = ['Teknik Informatika', 'Sistem Informatika'];
+    $data['genders'] = ['Pria', 'Wanita'];
 
     $this->form_validation->set_rules('nim', 'NIM', 'required|numeric');
     $this->form_validation->set_rules('nama', 'Nama', 'required');
