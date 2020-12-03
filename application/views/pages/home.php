@@ -18,6 +18,12 @@
     </div>
   </div>
   <!-- <div class="card bg-light">
+    <div class="card-header">Rencana Study</div>
+    <div class="card-body">
+      <a href="<?= base_url(); ?>Rencana_study" class="btn btn-primary">More</a>
+    </div>
+  </div> -->
+  <!-- <div class="card bg-light">
     <div class="card-header">Hasil Study</div>
     <div class="card-body">
       <a href="<?= base_url(); ?>Hasil_study" class="btn btn-primary">More</a>
