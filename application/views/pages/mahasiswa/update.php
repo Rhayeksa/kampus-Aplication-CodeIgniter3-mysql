@@ -2,7 +2,7 @@
   <div class="card-header">
     <div class="row">
       <div class="col-md-6">
-        <h3>Form Input Mahasiswa</h3>
+        <h3>Form Update Mahasiswa</h3>
       </div>
       <div class="col-md-6">
         <div class="float-right">
@@ -31,11 +31,11 @@
           <div class="form-group">
             <label for="gender">Gender</label>
             <select name="gender" class="form-control" id="gender">
-              <?php foreach ($gender as $g) : ?>
-                <?php if ($g == $mahasiswa['gender']) : ?>
-                  <option value="<?= $g; ?>" selected><?= $g; ?></option>
+              <?php foreach ($genders as $gender) : ?>
+                <?php if ($gender == $mahasiswa['gender']) : ?>
+                  <option value="<?= $gender; ?>" selected><?= $gender; ?></option>
                 <?php else : ?>
-                  <option value="<?= $g; ?>"><?= $g; ?></option>
+                  <option value="<?= $gender; ?>"><?= $gender; ?></option>
                 <?php endif; ?>
               <?php endforeach; ?>
             </select>
@@ -44,11 +44,11 @@
           <div class="form-group">
             <label for="jurusan">Jurusan</label>
             <select name="jurusan" class="form-control" id="jurusan">
-              <?php foreach ($jurusan as $j) : ?>
-                <?php if ($j == $mahasiswa['jurusan']) : ?>
-                  <option value="<?= $j; ?>" selected><?= $j; ?></option>
+              <?php foreach ($jurusans as $jurusan) : ?>
+                <?php if ($jurusan == $mahasiswa['jurusan']) : ?>
+                  <option value="<?= $jurusan; ?>" selected><?= $jurusan; ?></option>
                 <?php else : ?>
-                  <option value="<?= $j; ?>"><?= $j; ?></option>
+                  <option value="<?= $jurusan; ?>"><?= $jurusan; ?></option>
                 <?php endif; ?>
               <?php endforeach; ?>
             </select>
