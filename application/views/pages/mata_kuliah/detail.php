@@ -36,7 +36,7 @@
           <td><?= $mata_kuliah['nama']; ?></td>
         </tr>
         <tr>
-          <th>Gender</th>
+          <th>SKS</th>
           <td>:</td>
           <td><?= $mata_kuliah['sks']; ?></td>
         </tr>
