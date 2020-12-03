@@ -17,7 +17,7 @@
     </div>
   </div>
   <div class="card-body">
-    <form method="post">
+    <form method="POST">
       <input type="text" hidden name="createdAt" value="<?= date("Y-m-d H:i:s"); ?>" />
       <input type="text" hidden name="updatedAt" value="<?= date("Y-m-d H:i:s"); ?>" />
       <div class="row">

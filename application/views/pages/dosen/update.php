@@ -17,7 +17,7 @@
     </div>
   </div>
   <div class="card-body">
-    <form method="post">
+    <form method="POST">
       <input type="text" hidden name="nid" value="<?= $dosen['nid']; ?>" />
       <input type="text" hidden name="updatedAt" value="<?= date("Y-m-d H:i:s"); ?>" />
       <h3>NIM <?= $dosen['nid']; ?></h3>
