@@ -55,7 +55,7 @@ class Dosen extends CI_Controller
   {
     $data['title'] = 'Form Update Dosen';
     $data['dosen'] = $this->Dosen_model->getByKey($key);
-    $data['gender'] = ['Pria', 'Wanita'];
+    $data['genders'] = ['Pria', 'Wanita'];
 
     $this->form_validation->set_rules('nid', 'NID', 'required|numeric');
     $this->form_validation->set_rules('nama', 'Nama', 'required');
